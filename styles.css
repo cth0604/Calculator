@@ -1,0 +1,43 @@
+.calculator {
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+}
+
+.display {
+    width: 500px;
+    height: 80px;
+    background-color: yellow;
+    margin: auto;
+    text-align: right;
+}
+
+.displayText {
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+.zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.selected {
+    background-color: bisque;
+}
+
+.backspace-img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
