@@ -1,21 +1,30 @@
 .calculator {
     position: relative;
-    top: 120px;
+    top: 70px;
     font-size: 20px;
+    height: 700px;
+    width: 550px;
+    margin: auto;
+    background: darkgrey;
+    border-radius: 25px;
 }
 
 .display {
     width: 500px;
     height: 80px;
-    background-color: yellow;
+    background-color: white;
     margin: auto;
     text-align: right;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
 }
 
 .displayText {
-    font-size: 40px;
+    font-size: 50px;
     position: relative;
-    top: 30px;
+    top: 8px;
+    right: 5px;
 }
 
 .buttons {
@@ -25,6 +34,8 @@
     height: 500px;
     width: 500px;
     margin: auto;
+    position: relative;
+    top: 80px;
 }
 
 .zero {
@@ -37,7 +48,32 @@
 }
 
 .backspace-img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     opacity: 0.7;
+}
+
+button {
+    font-size: 30px;
+    background-color: white;
+}
+
+.operator {
+    background-color: red;
+    color: white;
+}
+
+.number {
+    background-color: navy;
+    color: white;
+}
+
+.zero {
+    background-color: white;
+    color: black;
+}
+
+.divide {
+    background-color: white;
+    color: black;
 }
